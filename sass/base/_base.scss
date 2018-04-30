@@ -10,12 +10,12 @@ html {
     // This will define what 1 rem is
     font-size: 62.5%;
     
-    // width < 1200
+    // If width < 1200
     @include respond(tab-land){
         font-size: 56.25%
     }
     
-    // width < 900
+    // If width < 900
     @include respond(tab-port){
         font-size: 50%;
     }
